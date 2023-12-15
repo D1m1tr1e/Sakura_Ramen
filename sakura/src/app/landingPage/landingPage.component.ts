@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common'; //@ markiert den Pfad unter welchem Angular suchen muss
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @Component({ //Decorator typscriot specifish
     selector: 'app-landingPage', // Ganz normales HTML Tag 
     standalone: true, // die Componenten ist als standalone definiert  
-    imports: [CommonModule],
+    imports: [CommonModule, NavbarComponent],
     template: `<section>
-                <h1>Sakura Ramen</h1>
-                <h2>Best Ramen in Town</h2>
+                  <div><app-navbar></app-navbar></div>
+                  <h1 class="fontRaleway">SAKURA RAMEN</h1>
+                  <h2 class="fontRaleway">THE BEST RAMEN IN TOWN</h2>
                </section>`,
     styleUrls: ['./landingPage.component.scss']
 })
