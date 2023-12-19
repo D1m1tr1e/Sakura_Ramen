@@ -1,5 +1,5 @@
 section {
-    width: 100dvw;
+    //width: 100dvw;
     background-image: url('./../../assets/img/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,9 +34,11 @@ section {
             >tr {
                 >td {
                     font-size: 1.3rem;
-                    color: rgb(87, 87, 87);
+                    color: rgb(127, 127, 127);
                     padding-bottom: 0.5rem;
                     padding-right: 1rem;
+                    font-family: 'Raleway';
+                    font-weight: 800;
                 }
             }
         }
