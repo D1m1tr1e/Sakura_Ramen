@@ -16,10 +16,10 @@ section {
     }
 
     >div {
-
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        margin-bottom: 1rem;
 
         >img{
             height: 13rem;
@@ -36,8 +36,13 @@ section {
                     font-size: 1.3rem;
                     color: rgb(87, 87, 87);
                     padding-bottom: 0.5rem;
+                    padding-right: 1rem;
                 }
             }
         }
+    }
+
+    .reverse-element{
+        flex-direction: row-reverse;
     }
 }
